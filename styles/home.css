@@ -1,0 +1,191 @@
+body{
+    background-color: #fafafa;
+}
+
+.securitizadora{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-securitizadora{
+    width: 333px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.description{
+    color: #888888;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.img-mulher{
+    height: 100%;
+    max-width: 800px;
+}
+
+.services{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    gap: 50px;
+}
+
+.text-service{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.img-title{
+    height: 46px;
+}
+
+.img-bank{
+    width: 162px;
+}
+.img-pay{
+    width: 111px;
+}
+.img-cambio, .img-pagcond{
+    width: 195px;
+}
+
+.saiba-mais{
+    background-color: #0E6B8C;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 10%) 0.141318px 0.706592px 0.720585px -0.416667px, rgb(0 0 0 / 10%) 0.361312px 1.80656px 1.84234px -0.833333px, rgb(0 0 0 / 10%) 0.724352px 3.62176px 3.69348px -1.25px, rgb(0 0 0 / 10%) 1.37312px 6.8656px 7.00157px -1.66667px, rgb(0 0 0 / 10%) 2.72935px 13.6468px 13.917px -2.08333px, rgb(0 0 0 / 10%) 6px 30px 30.5941px -2.5px;
+    transition: 0.2s ease-out;
+}
+
+.saiba-mais:hover{
+    transform: scale(1.1);
+}
+
+.image{
+    width: 50%;
+    height: 356.25px;
+    border-radius: 20px;
+}
+.img-celular{
+    width: auto;
+}
+
+@media (max-width: 1200px){
+    body{
+        background-color: #ffffff;
+    }
+    .securitizadora{
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 50px;
+        padding: 210px 50px 50px 50px;
+    }
+
+    .text{
+        order: 2;
+        align-items: center;
+        text-align: center;
+        width: 431px;
+    }
+
+    .description{
+        font-size: 16px;
+    }
+
+    .img-mulher{
+        border-radius: 20px;
+        width: 58%;
+        height: auto;
+        order: 1;
+    }
+
+    .img-securitizadora{
+        position: absolute;
+        top: 150px;
+    }
+}
+
+@media (max-width: 800px){
+    .securitizadora{
+        justify-content: flex-start;
+        padding: 180px 30px 30px 30px;
+        height: auto;
+    }
+    .img-securitizadora{
+        top: 100px;
+    }
+    .img-mulher{
+        width: 100%;
+    }
+    .text{
+        width: 298px;
+    }
+    .services{
+        padding-top: 50px;
+    }
+    .service{
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 70px 30px 0px 30px;
+        gap: 40px;
+    }
+    .text-service{
+        align-items: center;
+        text-align: center;
+        order: 2;
+    }
+    
+    .image{
+        order: 1;
+        width: 100%;
+    }
+
+    .img-celular{
+        height: auto;
+        width: 70%;
+    }
+    .text-service > .img-title{
+        position: absolute;
+        top: 0;
+    }
+    .description{
+        line-height: 1.2em;
+    }
+
+    .saiba-mais{
+        width: auto;
+        height: 36px;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
