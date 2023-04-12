@@ -2,10 +2,12 @@
     font-family: 'Poppins-Regular';
     src: url(../assets/fonts/Poppins-Regular.ttf);
 }
+
 @font-face {
     font-family: 'Poppins-Medium';
     src: url(../assets/fonts/Poppins-Medium.ttf);
 }
+
 @font-face {
     font-family: 'Poppins-SemiBold';
     src: url(../assets/fonts/Poppins-SemiBold.ttf);
@@ -19,14 +21,16 @@
     box-sizing: border-box;
     font-family: 'Poppins-Regular';
 }
-a{
-    color: inherit;
-}
-a:visited{
+
+a {
     color: inherit;
 }
 
-.header{
+a:visited {
+    color: inherit;
+}
+
+.header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -40,29 +44,30 @@ a:visited{
     z-index: 10;
 }
 
-.logo{
+.logo {
     width: 150px;
 }
 
-.navbar{
+.navbar {
     margin-left: auto;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     align-items: center;
     gap: 24px;
 }
 
-.nav-item{
+.nav-item {
     color: #666666;
     font-size: 14px;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     color: #888888;
 }
 
-.btn-autoatendimento{
+.btn-autoatendimento {
     font-size: 14px;
     background-color: rgb(13, 109, 142);
     color: #ffffff;
@@ -78,17 +83,17 @@ a:visited{
     box-shadow: rgb(0 0 0 / 15%) 0px 0.706592px 0.706592px -0.625px, rgb(0 0 0 / 14%) 0px 1.80656px 1.80656px -1.25px, rgb(0 0 0 / 14%) 0px 3.62176px 3.62176px -1.875px, rgb(0 0 0 / 13%) 0px 6.8656px 6.8656px -2.5px, rgb(0 0 0 / 11%) 0px 13.6468px 13.6468px -3.125px, rgb(0 0 0 / 5%) 0px 30px 30px -3.75px;
 }
 
-.btn-autoatendimento:hover{
+.btn-autoatendimento:hover {
     background-color: #0B5E79;
 }
 
 
 
-.footer{
+.footer {
     background-color: #f5f5f7;
 }
 
-.social-media{
+.social-media {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -97,55 +102,55 @@ a:visited{
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.social-title{
+.social-title {
     font-size: 30px;
     font-weight: 600;
 }
 
-.social-icon{
+.social-icon {
     font-size: 40px;
 }
 
-.wrapper{
+.wrapper {
     padding: 60px 40px 30px 60px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
 
-.footer-info{
+.footer-info {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin-bottom: 60px;
 }
 
-.info-wrapper{
+.info-wrapper {
     width: 220px;
 }
 
-.footer-ul-title{
+.footer-ul-title {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
-.footer-ul{
+.footer-ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.footer-li{
+.footer-li {
     font-size: 12px;
     color: #666666;
 }
 
-.footer-link:hover{
+.footer-link:hover {
     text-decoration: underline;
 }
 
-.address-info{
+.address-info {
     font-size: 12px;
     color: #666666;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -153,13 +158,13 @@ a:visited{
     text-align: center;
 }
 
-.pj{
+.pj {
     color: #0e6b8c;
     font-weight: 700;
 }
 
-@media (max-width: 1200px){
-    .navbar{
+@media (max-width: 1200px) {
+    .navbar {
         padding: 24px 20px 24px 0px;
         position: absolute;
         right: 0;
@@ -172,25 +177,28 @@ a:visited{
         visibility: hidden;
         transition: all .3s;
     }
-    .nav-links{
+
+    .nav-links {
         flex-direction: column;
     }
 
-    .nav-item{
+    .nav-item {
         font-size: 14px;
     }
-    .nav-item-btn{
+
+    .nav-item-btn {
         display: flex;
         justify-content: center;
         width: 100%;
     }
 
-    .nav-item-btn a{
+    .nav-item-btn a {
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .btn-autoatendimento{
+
+    .btn-autoatendimento {
         width: 40%;
     }
 
@@ -210,7 +218,7 @@ a:visited{
         transition: all ease .3s;
     }
 
-    .show-menu{
+    .show-menu {
         border-bottom: none;
     }
 
@@ -234,26 +242,28 @@ a:visited{
     }
 }
 
-@media (max-width: 800px){
-    .logo{
+@media (max-width: 800px) {
+    .logo {
         width: 130px;
     }
-    .social-media{
+
+    .social-media {
         padding: 40px;
     }
-    
-    .social-title{
+
+    .social-title {
         display: none;
     }
-    
-    .social-icon{
+
+    .social-icon {
         font-size: 40px;
     }
-    .wrapper{
+
+    .wrapper {
         padding: 40px 30px 30px 30px;
     }
-    
-    .footer-info{
+
+    .footer-info {
         flex-direction: column;
         align-items: center;
         text-align: center;

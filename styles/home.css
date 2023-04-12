@@ -1,18 +1,19 @@
-body{
+body {
     background-color: #fafafa;
 }
 
-.securitizadora{
+.securitizadora {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.img-securitizadora{
+
+.img-securitizadora {
     width: 333px;
 }
 
-.text{
+.text {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -20,19 +21,19 @@ body{
     margin: 0 auto;
 }
 
-.description{
+.description {
     color: #888888;
     font-weight: 400;
     font-size: 21px;
     line-height: 32px;
 }
 
-.img-mulher{
+.img-mulher {
     height: 100%;
     max-width: 800px;
 }
 
-.services{
+.services {
     padding: 100px 0;
     display: flex;
     flex-direction: column;
@@ -40,35 +41,38 @@ body{
     gap: 90px;
 }
 
-.service{
+.service {
     display: flex;
     align-items: center;
     max-width: 1000px;
     gap: 50px;
 }
 
-.text-service{
+.text-service {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 50%;
 }
 
-.img-title{
+.img-title {
     height: 46px;
 }
 
-.img-bank{
+.img-bank {
     width: 162px;
 }
-.img-pay{
+
+.img-pay {
     width: 111px;
 }
-.img-cambio, .img-pagcond{
+
+.img-cambio,
+.img-pagcond {
     width: 195px;
 }
 
-.saiba-mais{
+.saiba-mais {
     background-color: #0E6B8C;
     font-size: 16px;
     font-weight: 600;
@@ -82,24 +86,26 @@ body{
     transition: 0.2s ease-out;
 }
 
-.saiba-mais:hover{
+.saiba-mais:hover {
     transform: scale(1.1);
 }
 
-.image{
+.image {
     width: 50%;
     height: 356.25px;
     border-radius: 20px;
 }
-.img-celular{
+
+.img-celular {
     width: auto;
 }
 
-@media (max-width: 1200px){
-    body{
+@media (max-width: 1200px) {
+    body {
         background-color: #ffffff;
     }
-    .securitizadora{
+
+    .securitizadora {
         position: relative;
         flex-direction: column;
         justify-content: flex-start;
@@ -108,48 +114,53 @@ body{
         height: auto;
     }
 
-    .text{
+    .text {
         order: 2;
         align-items: center;
         text-align: center;
         width: 431px;
     }
 
-    .description{
+    .description {
         font-size: 16px;
     }
 
-    .img-mulher{
+    .img-mulher {
         border-radius: 20px;
         width: 58%;
         height: auto;
         order: 1;
     }
 
-    .img-securitizadora{
+    .img-securitizadora {
         position: absolute;
         top: 150px;
     }
 }
 
-@media (max-width: 800px){
-    .securitizadora{
+@media (max-width: 800px) {
+    .securitizadora {
         justify-content: flex-start;
         padding: 180px 30px 30px 30px;
-}
-    .img-securitizadora{
+    }
+
+    .img-securitizadora {
         top: 100px;
     }
-    .img-mulher{
+
+    .img-mulher {
         width: 100%;
     }
-    .text{
+
+    .text {
         width: 298px;
     }
-    .services{
+
+    .services {
         padding-top: 50px;
     }
-    .service{
+
+    .service {
         position: relative;
         flex-direction: column;
         justify-content: center;
@@ -157,30 +168,33 @@ body{
         padding: 70px 30px 0px 30px;
         gap: 40px;
     }
-    .text-service{
+
+    .text-service {
         align-items: center;
         text-align: center;
         order: 2;
     }
-    
-    .image{
+
+    .image {
         order: 1;
         width: 100%;
     }
 
-    .img-celular{
+    .img-celular {
         height: auto;
         width: 70%;
     }
-    .text-service > .img-title{
+
+    .text-service>.img-title {
         position: absolute;
         top: 0;
     }
-    .description{
+
+    .description {
         line-height: 1.2em;
     }
 
-    .saiba-mais{
+    .saiba-mais {
         width: auto;
         height: 36px;
         padding: 15px;

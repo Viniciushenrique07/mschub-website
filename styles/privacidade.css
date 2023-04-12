@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url(../assets/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+
+.title {
+    font-family: 'Poppins-Bold', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 150px 40px 0;
+    text-align: center;
+}
+
+.text-container {
+    padding: 100px 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.introduction {
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 24px;
+    color: #333333;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.inline-text {
+    margin-right: 40px;
+}
+
+a.termos {
+    color: #0d6d8e;
+    text-decoration: underline;
+}
+
+.subtitle {
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+    .text-container {
+        padding: 100px 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    .title {
+        padding: 120px 20px 0;
+    }
+
+    .text-container {
+        padding: 40px;
+    }
+}

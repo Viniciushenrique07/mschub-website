@@ -2,26 +2,27 @@
     font-family: 'Poppins-Medium';
     src: url(../assets/fonts/Poppins-Medium.ttf);
 }
+
 @font-face {
     font-family: 'Poppins-SemiBold';
     src: url(../assets/fonts/Poppins-SemiBold.ttf);
 }
 
-.title{
+.title {
+    font-family: 'Poppins-SemiBold', sans-serif;
     font-weight: 600;
     font-size: 50px;
     padding: 150px 40px 0;
     text-align: center;
-    font-family: 'Poppins-SemiBold', sans-serif;
 }
 
-.wrap{
+.wrap {
     padding: 100px 40px;
     display: flex;
     justify-content: center;
 }
 
-.politicas-wrapper{
+.politicas-wrapper {
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     gap: 60px;
@@ -29,19 +30,35 @@
     max-width: 1000px;
 }
 
-.politica-title{
+.politica-title {
     font-family: 'Poppins-Medium', sans-serif;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.description{
+.description {
     font-family: 'Poppins-Medium', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #0d6d8e;
 }
-.description:hover{
+
+.description:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 25px;
+        padding: 120px 20px 0px;
+    }
+
+    .wrap {
+        justify-content: flex-start;
+    }
+
+    .politicas-wrapper {
+        grid-template-columns: 1fr;
+    }
 }
