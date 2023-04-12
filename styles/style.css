@@ -19,13 +19,16 @@
     box-sizing: border-box;
     font-family: 'Poppins-Regular';
 }
-
+a{
+    color: inherit;
+}
 a:visited{
     color: inherit;
 }
 
 .header{
     position: fixed;
+    top: 0;
     width: 100%;
     background-color: #fafafa;
     height: 80px;

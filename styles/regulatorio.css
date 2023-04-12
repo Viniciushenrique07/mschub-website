@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url(../assets/fonts/Poppins-SemiBold.ttf);
+}
+
+.title{
+    font-weight: 600;
+    font-size: 50px;
+    padding: 150px 40px 0;
+    text-align: center;
+    font-family: 'Poppins-SemiBold', sans-serif;
+}
+
+.wrap{
+    padding: 100px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.politicas-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 60px;
+    grid-template-rows: repeat(2, min-content);
+    max-width: 1000px;
+}
+
+.politica-title{
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0d6d8e;
+}
+.description:hover{
+    text-decoration: underline;
+}
