@@ -174,10 +174,10 @@ body {
     .image {
         order: 1;
         width: 100%;
+        height: auto;
     }
 
     .img-celular {
-        height: auto;
         width: 70%;
     }
 
