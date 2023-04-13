@@ -3,10 +3,10 @@ body {
 }
 
 .securitizadora {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 80px;
 }
 
 .img-securitizadora {
@@ -110,7 +110,7 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         gap: 50px;
-        padding: 210px 50px 50px 50px;
+        padding: 100px 50px 50px 50px;
         height: auto;
     }
 
@@ -134,18 +134,14 @@ body {
 
     .img-securitizadora {
         position: absolute;
-        top: 150px;
+        top: 30px;
     }
 }
 
 @media (max-width: 800px) {
     .securitizadora {
         justify-content: flex-start;
-        padding: 180px 30px 30px 30px;
-    }
-
-    .img-securitizadora {
-        top: 100px;
+        padding: 100px 30px 30px 30px;
     }
 
     .img-mulher {
