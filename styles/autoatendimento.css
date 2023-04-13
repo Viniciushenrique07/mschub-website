@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url(../assets/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 150px 40px 0px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 50px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #888888;
+    max-width: 600px;
+}
+
+.content-wrapper {
+    padding: 100px 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0.7961918735236395px 2.3885756205709185px -0.625px #0000000d, 0 2.414506143104518px 7.2435184293135535px -1.25px #0000000d, 0 6.382653521484461px 19.147960564453385px -1.875px #0000000d, 0 20px 60px -2.5px #0000000d;
+}
+
+.text-title {
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 20px;
+}
+
+.description {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 16px;
+    color: #666666;
+}
+
+.btn-acesso {
+    font-family: 'Poppins-SemiBold', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #0E6D8E;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026, 0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025, 0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023, 0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020, 0 13.646761411524492px 13.646761411524492px -3.125px #0000001b, 0 30px 30px -3.75px #0000000d;
+}
+
+@media (max-width: 800px) {
+    .title-wrapper {
+        padding: 120px 20px 0;
+    }
+
+    .content-wrapper {
+        padding: 60px 20px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+}

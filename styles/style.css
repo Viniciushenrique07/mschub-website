@@ -13,6 +13,11 @@
     src: url(../assets/fonts/Poppins-SemiBold.ttf);
 }
 
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -159,8 +164,8 @@ a:visited {
 }
 
 .pj {
+    font-family: 'Poppins-Bold';
     color: #0e6b8c;
-    font-weight: 700;
 }
 
 @media (max-width: 1200px) {
